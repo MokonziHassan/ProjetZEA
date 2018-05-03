@@ -1,0 +1,8 @@
+#frugalmap {
+  height: 600px;
+  width: 100%;
+}
+
+li{
+  cursor: pointer;
+}

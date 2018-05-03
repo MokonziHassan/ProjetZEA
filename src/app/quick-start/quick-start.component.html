@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-8">
+    <div id="frugalmap">
+    </div>
+  </div>
+  <div class="col-sm-2">
+    <h3>Crassiers</h3>
+    <ul>
+      <li *ngFor="let crassier of crassiers" (click)="centerOn(crassier)">{{ crassier.nom }}</li>
+    </ul>
+    <h3>Divers</h3> 
+    <ul>
+      <li (click)="debutConduite()">Début conduite Altéo</li>
+      <li (click)="finConduite()">Fin conduite Altéo</li>
+    </ul>
+  </div>
+</div>
